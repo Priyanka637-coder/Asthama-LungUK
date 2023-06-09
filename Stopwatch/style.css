@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to bottom, #5c4691, #3b358d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  #timer {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  #buttons {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button.round {
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+  }
+
+  button:hover {
+    background-color: #555;
+  }
+  
+  #lap-list {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #lap-list li {
+    margin-bottom: 5px;
+  }
+  

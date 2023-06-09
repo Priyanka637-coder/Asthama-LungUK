@@ -1,0 +1,58 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #57595D;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 500;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    grid-gap: 1em; 
+    width: 650px;
+    height: calc(100vh - 100px);
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px;
+}
+
+.grid-bar{
+    background-color: #C93A2A;
+}
+
+.grid-title{
+    display: grid;
+}
+
+.title-end span{
+    border-right: 5px solid #C93A2A;
+}
+
+.grid-title h1{
+    margin-bottom: 0px;
+}
+
+.rotate-text{
+    writing-mode: vertical-lr;
+}
+
+.title{
+    justify-self: end;
+    align-self: start;
+    font-size: 0.5rem;
+}
+.rotate-text{
+    writing-mode: vertical-lr;
+}
+
+.title-h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.title-end{
+    align-self: end;
+}
